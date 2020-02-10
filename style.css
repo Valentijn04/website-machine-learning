@@ -1,0 +1,20 @@
+body{
+  margin:0;
+}
+
+header{
+  background-color:blue;
+  height:75px;
+}
+
+article{
+background-color:greenyellow;
+width:60vw;
+margin: 0 auto;
+}
+
+nav{
+float:left;
+width:19vw;
+background-color:peachpuff;
+}
