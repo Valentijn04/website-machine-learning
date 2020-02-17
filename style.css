@@ -1,6 +1,6 @@
 body{
   margin:0;
-background-image:  url()
+background-image:  url(https://cdn.dribbble.com/users/31818/screenshots/2091618/dribbb.gif)
 }
 
 header{
@@ -9,9 +9,10 @@ header{
 }
 
 article{
-background-color:greenyellow;
+background-color:black;
 width:60vw;
 margin: 0 auto;
+color:darkblue;
 }
 
 nav{
