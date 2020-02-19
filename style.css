@@ -4,9 +4,17 @@ background-image:  url(https://cdn.dribbble.com/users/31818/screenshots/2091618/
 }
 
 logo{
-  margin-right:0%;
-  margin-left:100%;
-  background-image: url(https://static.wixstatic.com/media/944d90_48981fb05391443997cfd22e27b63fd6~mv2_d_2160_2160_s_2.png/v1/fill/w_2160,h_2160,al_c,q_90/file.jpg)
+  margin-right:190%;
+  margin-left:0%;
+  
+  bottom:0px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/img/logo.png);
+  padding: 55px;
+  height: 108px;
+  height: 6.75rem;
+
 }
 
 
