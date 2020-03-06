@@ -25,7 +25,8 @@ clear{
 header{
   background-color:darkblue;
   color:white;
-  height:75px;
+  height:9vw;
+  width:79vw;
   margin-right:100px;
   margin-left:100px;
   text-transform:uppercase;
@@ -43,11 +44,28 @@ padding-bottom: 69px;
 }
 
 nav{
-float:left;
-width:19vw;
-background-color:darkblue;
-color:white;
-height:11vw;
+  float:left;
+  width:17vw;
+  background-color:darkblue;
+  color:white;  
+  border-radius: 5px 0px 0px 0px;
+  border-bottom: 10px solid white;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: relative;
+  top: 1px;
+  transition: top 300ms ease;
+}
+
+nav li a{
+  position:relative;
+  transition: all 1000ms ease;
+  left:0px;
+}
+
+nav li:hover a{
+  color:green;
+  left:15px;
 }
 
 
