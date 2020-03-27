@@ -1,26 +1,44 @@
+
 body{
   margin:0;
-background-image:  url(https://cdn.dribbble.com/users/31818/screenshots/2091618/dribbb.gif)
+  background-image:  url(https://images.ctfassets.net/plii0v5gbc4s/2Z8bmd2uAUpvzZmdEzeeOj/8652c8b7d5c782d8e0311520ea1a65a0/machine-learning-ai-b2b.gif)
 }
 
 logo{
   margin-right: 190%;
-    margin-left: 0%;
-    display: block;
-    
-    position: ABSOLUTE;
-    left: 15px bottom:0px;
-    background-size: cover;
-    background-position: 4PX 401PX;
-    background-image: url(/img/logo.png);
-    padding: 38px;
-    height: 20px;
-    width: 23px;
+  margin-left: 0%;
+  display: block;  
+  position: absolute;
+  left: 15px bottom 0px;
+  background-size: cover;
+  background-position: 4PX 401PX;
+  background-image: url(/img/logo.png);
+  padding: 38px;
+  height: 20px;
+  width: 23px;
 }
 
 clear{
   clear:both;
 }
+
+h1{ 
+  align-content: center;
+  height:10vw;
+}
+
+
+@media (max-width:695px){
+ h1{
+   font-size:14px;
+ }
+
+ header{
+   
+ }
+}
+
+
 
 header{
   background-color:darkblue;
@@ -32,6 +50,13 @@ header{
   text-transform:uppercase;
   text-align:center;
 }
+.container{
+margin:20px;
+border:1px solid black;
+padding:20px;
+}
+
+
 
 article{
 background-color:rgba(0, 0, 0, 0.815);
@@ -54,7 +79,7 @@ nav{
   padding: 5px 10px;
   position: relative;
   top: 1px;
-  transition: top 300ms ease;
+ 
 }
 
 nav li a{
