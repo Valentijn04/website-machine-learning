@@ -27,10 +27,14 @@ h1{
 }
 
 
+
+
+}
 @media (max-width:695px){
  h1{
    font-size:14px;
   } 
+  
  }
 
 @media (max-width:650px){
@@ -116,5 +120,4 @@ a{
 
   p1{
 
-    
   }
