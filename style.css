@@ -1,4 +1,3 @@
-
 body{
   margin:0;
   background-image:  url(https://images.ctfassets.net/plii0v5gbc4s/2Z8bmd2uAUpvzZmdEzeeOj/8652c8b7d5c782d8e0311520ea1a65a0/machine-learning-ai-b2b.gif)
@@ -31,16 +30,20 @@ h1{
 @media (max-width:695px){
  h1{
    font-size:14px;
+  } 
  }
 
+@media (max-width:650px){
 logo{
-font-size:14px;
+  margin-left: 550px;
 }
 }
- 
 
-
-
+@media(max-width:300px){
+  nav{
+    width:650px;
+  }
+  }
 
 header{
   background-color:darkblue;
